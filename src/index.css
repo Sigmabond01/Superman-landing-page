@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'CCUltimatum';
+  src: url('/font/ccultimatum.otf') format('opentype'); /* ✅ correct path */
+  font-weight: normal;
+  font-style: normal;
+}
+
