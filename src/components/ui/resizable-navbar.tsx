@@ -61,7 +61,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)}
-      className="relative font-ccultimatum border-2 border-blue-600/50 dark:bg-gradient-to-bl dark:from-blue-950 dark:to-red-950 dark:border-blue-400/30 bg-gradient-to-r from-blue-100 to-red-100 shadow-lg shadow-blue-500/30 px-6 py-3 rounded-full"
+      className="relative font-ccultimatum border-2 border-blue-600/50 bg-gray-500 bg-clip-padding backdrop-filter  backdrop-blur-md bg-opacity-10 backdrop-saturate-100 backdrop-contrast-100 shadow-lg shadow-blue-500/50 px-6 py-3 rounded-full"
     >
       <div className="flex items-center justify-between w-full">
         <div className="pl-2">
