@@ -1,16 +1,28 @@
-import { Hero } from "./components/Hero";
-import { Synopsis } from "./components/Synopsis";
-import { Videos } from "./components/Videos";
+import React, { useRef, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { Hero } from './components/Hero';
+import { Videos } from './components/Videos';
+import { Synopsis } from './components/Synopsis';
 
 function App() {
+  const videoRef = useRef(null);
+  const synopsisRef = useRef(null);
+  const location = useLocation();
+
+  // scroll to section when URL changes
+  useEffect(() => {
+    const section = location.pathname.replace('/', '').toLowerCase();
+    if (section === 'videos') videoRef.current?.scrollIntoView({ behavior: 'smooth' });
+    else if (section === 'synopsis') synopsisRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [location]);
 
   return (
     <>
       <Hero />
-      <Videos />
-      <Synopsis />
+      <div ref={videoRef}><Videos /></div>
+      <div ref={synopsisRef}><Synopsis /></div>
     </>
   );
-};
+}
 
-export default App
+export default App;

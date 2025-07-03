@@ -1,6 +1,6 @@
 export const Synopsis = () => {
   return (
-    <div className="bg-sky-800 overflow-hidden min-h-screen text-white">
+    <div className="overflow-hidden min-h-screen w-full bg-[url('/fortress.jpg')] bg-cover bg-center opacity-95 text-blue-900">
       <div className="text-center mt-20 font-ccultimatum">
         <h1 className="text-5xl md:text-7xl tracking-wider">SYNOPSIS</h1>
       </div>

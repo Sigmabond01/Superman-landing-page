@@ -8,31 +8,37 @@ export const Videos = () => {
     id: 1,
     thumbnail: "/maintrailer2.jpg",
     label: "TICKETS ON SALE",
+    url: "https://youtu.be/nZTgJy8ym34?si=t2P0n58DnmrGbbfo",
   },
   {
     id: 2,
     thumbnail: "/officialtrailer2.jpg",
     label: "OFFICIAL TRAILER",
+    url: "https://youtu.be/Ox8ZLF6cGM0?si=HBPvAbt2B_Idf5WD",
   },
   {
     id: 3,
     thumbnail: "/officialteaser2.jpg",
     label: "TEASER TRAILER",
+    url: "https://youtu.be/uhUht6vAsMY?si=dhmmF1niGtFzCvdt",
   },
   {
     id: 4,
     thumbnail: "/sneakpeek2.jpg",
     label: "SNEAK PEEK",
+    url: "https://youtu.be/xFU8U4UVUBs?si=DdotA-aJ_uU1iFVp",
   },
   {
     id: 5,
     thumbnail: "/btslook2.jpg",
     label: "BEHIND THE SCENES",
+    url: "https://youtu.be/Rq5LyXG8m2U?si=guGLPW1MPFzDM2zM",
   },
 ];
 
 
   return (
+    <section id='Videos'>
     <div className="min-h-screen overflow-hidden bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] text-white">
       <div className="text-center mt-20">
         <h1 className=" font-ccultimatum text-7xl md:text-6xl font-bold tracking-[0.1em] text-red-500 -mb-14">
@@ -43,6 +49,10 @@ export const Videos = () => {
       <div className="max-w-7xl mx-auto px-4 scale-75">
         {/* Main Video */}
         <div className="relative mb-8">
+          <a href={videos[activeVideo].url}
+          target='_blank'
+          rel="noopener noreferrer"
+          className='block'>
           <div 
             className="relative w-full aspect-video rounded-lg overflow-hidden cursor-pointer group"
             style={{
@@ -52,6 +62,7 @@ export const Videos = () => {
             }}
           >
           </div>
+          </a>
         </div>
 
         {/* Video Thumbnails */}
@@ -79,5 +90,6 @@ export const Videos = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 }
