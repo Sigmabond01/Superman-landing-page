@@ -35,15 +35,16 @@ function Navbar({ className }) {
           </MenuItem>
         </div>
 
+        <div onClick={() => handleNavigate("/Gallery")}>
+          <MenuItem setActive={setActive} active={active} item="GALLERY">
+          </MenuItem>
+        </div>
+
         <div>
           <MenuItem setActive={setActive} active={active} item="SOUNDTRACK">
           </MenuItem>
         </div>
 
-        <div>
-          <MenuItem setActive={setActive} active={active} item="GALLERY">
-          </MenuItem>
-        </div>
       </Menu>
     </div>
   );

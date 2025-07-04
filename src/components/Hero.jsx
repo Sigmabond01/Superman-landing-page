@@ -50,12 +50,12 @@ export const Hero = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
               <a target="_blank" href="https://youtu.be/Ox8ZLF6cGM0?si=r6y5DPjZSg4tCgP6" className="flex-1">
-              <button className="w-full px-6 py-3 bg-white/10 text-white border border-yellow-400 rounded-xl hover:bg-blue-500/20 hover:border-red-600 transition-all duration-300 flex items-center justify-center gap-2">
+              <button className="w-full px-6 py-3 bg-white/10 text-white border border-red-600 rounded-xl hover:bg-blue-500/20 hover:border-yellow-400 transition-all duration-300 flex items-center justify-center gap-2">
               WATCH TRAILER
               </button>
               </a>
               <a target="_blank" href="https://www.superman.com/home/" className="flex-1">
-              <button className="w-full px-6 py-3 bg-white/10 text-white border border-yellow-400 rounded-xl hover:bg-blue-500/20 hover:border-red-600 transition-all duration-300 flex items-center justify-center gap-2">
+              <button className="w-full px-6 py-3 bg-white/10 text-white border border-red-600 rounded-xl hover:bg-blue-500/20 hover:border-yellow-400 transition-all duration-300 flex items-center justify-center gap-2">
               ORIGINAL WEBSITE
               </button>
               </a>

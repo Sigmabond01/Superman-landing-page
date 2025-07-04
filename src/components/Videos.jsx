@@ -38,23 +38,22 @@ export const Videos = () => {
 
 
   return (
-    <section id='Videos'>
-    <div className="min-h-screen overflow-hidden bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] text-white">
+    <div className="min-h-screen overflow-hidden bg-gradient-to-t from-cyan-800 via-cyan-500 to-sky-800 text-white">
       <div className="text-center mt-20">
-        <h1 className=" font-ccultimatum text-7xl md:text-6xl font-bold tracking-[0.1em] text-red-500 -mb-14">
+        <h1 className=" font-ccultimatum text-7xl md:text-6xl font-bold tracking-[0.1em] text-red-900 -mb-14">
           VIDEOS
         </h1>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 scale-75">
         {/* Main Video */}
-        <div className="relative mb-8">
+        <div className="relative mb-8 ">
           <a href={videos[activeVideo].url}
           target='_blank'
           rel="noopener noreferrer"
-          className='block'>
+          className='block '>
           <div 
-            className="relative w-full aspect-video rounded-lg overflow-hidden cursor-pointer group"
+            className="relative w-full aspect-video rounded-lg overflow-hidden cursor-pointer outline outline-yellow-400 shadow-2xl shadow-red-900/40"
             style={{
               backgroundImage: `url(${videos[activeVideo].thumbnail})`,
               backgroundSize: 'cover',
@@ -66,14 +65,14 @@ export const Videos = () => {
         </div>
 
         {/* Video Thumbnails */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 ">
          {videos.map((video, index) => (
             <div
                 key={video.id}
                 className={`relative aspect-video rounded-lg overflow-hidden cursor-pointer transition-all duration-300 group ${
                 index === activeVideo 
                 ? 'ring-2 ring-red-500 scale-105' 
-                : 'hover:scale-105 hover:ring-1 hover:ring-amber-400'
+                : 'hover:scale-105 hover:ring-1 hover:ring-white'
                 }`}
                 onClick={() => setActiveVideo(index)}
                 style={{
@@ -90,6 +89,5 @@ export const Videos = () => {
         </div>
       </div>
     </div>
-    </section>
   );
 }

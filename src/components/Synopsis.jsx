@@ -1,11 +1,11 @@
 export const Synopsis = () => {
   return (
-    <div className="overflow-hidden min-h-screen w-full bg-[url('/fortress.jpg')] bg-cover bg-center opacity-95 text-blue-900">
-      <div className="text-center mt-20 font-ccultimatum">
+    <div className="overflow-hidden min-h-screen w-full bg-[url('/dp.png')] bg-cover bg-center text-white">
+      <div className="text-center mt-16 font-ccultimatum">
         <h1 className="text-5xl md:text-7xl tracking-wider">SYNOPSIS</h1>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 mt-10 font-ccultimatum leading-relaxed text-lg md:text-xl">
+      <div className="max-w-5xl mx-auto px-6 mt-18 font-ccultimatum leading-relaxed text-lg scale-90 md:text-xl">
         <p>
           “Superman,” DC Studios’ first feature film to hit the big screen, is set to soar into theaters worldwide this summer from Warner Bros. Pictures. In his signature style, James Gunn takes on the original superhero in the newly imagined DC universe with a singular blend of epic action, humor and heart, delivering a Superman who’s driven by compassion and an inherent belief in the goodness of humankind.
         </p>
