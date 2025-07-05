@@ -38,9 +38,9 @@ export const Videos = () => {
 
 
   return (
-    <div className="min-h-screen overflow-hidden bg-gradient-to-t from-cyan-800 via-cyan-500 to-sky-800 text-white">
+    <div className="min-h-screen overflow-hidden bg-gradient-to-tr from-red-700 via-red-900 to-red-900 text-white">
       <div className="text-center mt-20">
-        <h1 className=" font-ccultimatum text-7xl md:text-6xl font-bold tracking-[0.1em] text-red-900 -mb-14">
+        <h1 className=" font-ccultimatum text-7xl md:text-6xl font-bold tracking-[0.1em] text-blue-600 -mb-14">
           VIDEOS
         </h1>
       </div>
