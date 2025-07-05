@@ -42,7 +42,9 @@ function Navbar({ className }) {
         </div>
 
         <div>
+          <a href="https://lnk.to/SupermanSDTK" target="_blank">
           <MenuItem setActive={setActive} active={active} item="SOUNDTRACK" />
+          </a>
         </div>
       </Menu>
     </div>
