@@ -6,31 +6,31 @@ export const Videos = () => {
     const videos = [
   {
     id: 1,
-    thumbnail: "/maintrailer2.jpg",
+    thumbnail: "/maintrailer2.webp",
     label: "TICKETS ON SALE",
     url: "https://youtu.be/nZTgJy8ym34?si=t2P0n58DnmrGbbfo",
   },
   {
     id: 2,
-    thumbnail: "/officialtrailer2.jpg",
+    thumbnail: "/officialtrailer2.webp",
     label: "OFFICIAL TRAILER",
     url: "https://youtu.be/Ox8ZLF6cGM0?si=HBPvAbt2B_Idf5WD",
   },
   {
     id: 3,
-    thumbnail: "/officialteaser2.jpg",
+    thumbnail: "/officialteaser2.webp",
     label: "TEASER TRAILER",
     url: "https://youtu.be/uhUht6vAsMY?si=dhmmF1niGtFzCvdt",
   },
   {
     id: 4,
-    thumbnail: "/sneakpeek2.jpg",
+    thumbnail: "/sneakpeek2.webp",
     label: "SNEAK PEEK",
     url: "https://youtu.be/xFU8U4UVUBs?si=DdotA-aJ_uU1iFVp",
   },
   {
     id: 5,
-    thumbnail: "/btslook2.jpg",
+    thumbnail: "/btslook2.webp",
     label: "BEHIND THE SCENES",
     url: "https://youtu.be/Rq5LyXG8m2U?si=guGLPW1MPFzDM2zM",
   },

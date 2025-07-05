@@ -6,7 +6,7 @@ export const Gallery = () => {
     const videos = [
   {
     id: 1,
-    thumbnail: "/super-pup.jpg",
+    thumbnail: "/super-pup.webp",
   },
   {
     id: 2,

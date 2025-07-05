@@ -1,6 +1,6 @@
 export const Synopsis = () => {
   return (
-    <div className="overflow-hidden min-h-screen w-full bg-[url('/dp.png')] bg-cover bg-center text-white">
+    <div className="overflow-hidden min-h-screen w-full bg-[url('/dp.webp')] bg-cover bg-center text-white">
       {/* Title */}
       <div className="text-center pt-20 px-4 font-ccultimatum">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider">SYNOPSIS</h1>

@@ -34,7 +34,7 @@ export const Hero = () => {
         <div className="flex-1 max-w-lg flex flex-col items-center">
           <div className="mt-28 scale-75">
             <img
-              src="/superman-text.png"
+              src="/superman-text.webp"
               alt="Look Up Text"
               className="w-auto h-auto max-w-full"
             />
@@ -43,7 +43,7 @@ export const Hero = () => {
           {/* Superman Shield Symbol */}
           <div className="mb-8">
             <img
-              src="/superman-shield-symbol.png"
+              src="/superman-shield-symbol.webp"
               alt="Superman Logo"
               className="w-48 md:w-56 lg:w-64 h-auto hover:drop-shadow-[0_0_30px_rgba(255,255,0,0.8)] hover:brightness-110 hover:scale-100 transition-all duration-500"
             />

@@ -60,7 +60,7 @@ export const Menu = ({
       <div className="flex items-center justify-between w-full">
         <div className="pl-2">
           <img
-            src="/superman_logo.png"
+            src="/superman_logo.webp"
             alt="Logo"
             className="h-10 w-auto object-contain"
           />
